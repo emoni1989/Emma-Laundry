@@ -1,0 +1,39 @@
+@media only screen and (min-width: 768px) {
+
+header h1 {font-size: 2.85rem;}
+header h2 {font-size: 1.5rem;}
+header img {height: 100px;}
+
+.medium-6 {width: 50%;}
+
+nav button {display: none;}
+nav ul {display: block;}
+nav li {width: 25%; float: left;}
+/*.dropbtn {display: block;}
+.dropdown-content {
+    float: none;
+    text-align: center;
+    box-shadow: none;
+    background-color: inherit;
+}
+
+:hover .dropdown-content a{
+    background-color: inherit;
+    float: left;
+    padding-left: 0;
+    border-radius: 5px;
+    margin: 1px;   
+}
+
+.dropdown-content a{
+    display: block;
+}*/
+
+.tablemobile {
+    overflow-x: auto;
+    display: block;
+    font-size: 1.3rem;
+    padding-left: 75px;
+}
+
+} /* end of media query */
